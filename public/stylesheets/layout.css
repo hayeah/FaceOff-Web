@@ -7,6 +7,10 @@
 	clear:  both;
 }
 
+.hide {
+	display: none;
+}
+
 .banner {
 	color: #000;
 	font-family: 'Coda', sans-serif;
@@ -66,14 +70,49 @@
 	font-size: 16px;
 }
 
-.hero-unit #mark {
+#mark {
 	display: block;
-	background: url(../images/mark-back.png);
+	background: url(/images/mark-back.png);
 	width: 399px;
 	height: 503px;
 	top: 0px;
 	right: 40px;
 	position: absolute;
+}
+
+#mark.faceon {
+	background: url(/images/mark.png);
+}
+
+#mark.faceon .show {
+	display: none;
+}
+#mark.faceon .hide {
+	display: inline;
+}
+
+#mark .like {
+	background: url(../images/faceoff-icon.png) no-repeat;
+	width: 51px;
+	height: 24px;
+	position: absolute;
+	top: 180px;
+	right:  160px;
+}
+
+#mark .like:hover {
+	background-position: 0 -24px;
+}
+
+#mark.faceon .like {
+	background: url(/images/like.png) no-repeat;
+}
+
+#mark .like .twipsy {
+	top: -130px;
+	left: -80px;
+	width: 200px;
+	font-size: 17px;
 }
 
 .hero-unit .credit {
@@ -121,36 +160,7 @@
 	margin-left: 0px;
 }
 
-.faceoff-button {
-	background: url(../images/faceoff-icon.png) no-repeat;
-	width: 51px;
-	height: 24px;
-	position: absolute;
-	top: 180px;
-	right:  160px;
-}
 
-.like-button {
-	background: url(../images/like.png) no-repeat;
-	width: 51px;
-	height: 24px;
-	position: absolute;
-	top: 180px;
-	right:  160px;
-	display: none;
-}
-
-.faceoff-button:hover {
-	background-position: 0 -24px;
-}
-
-.twipsy {
-	position: absolute;
-	top: 10px;
-	right: 80px;
-	font-size: 14px;
-	width: 200px;
-}
 
 #credit {
 	display: inline-block;
