@@ -6,7 +6,12 @@ like_html =
 
 replaced = null
 
+preload = (list) ->
+  for src in list
+    $('<img/>')[0].src = src
+
 $ () ->
+  preload ["/images/mark.png"]
   $("#mark .like").click () ->
     return if replaced
     $("#mark").addClass("faceon")
