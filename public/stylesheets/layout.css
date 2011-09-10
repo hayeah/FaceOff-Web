@@ -20,6 +20,15 @@
 	text-align: center;
 }
 
+.tweet_this {
+	position: fixed;
+	height: 62px;
+	width: 55px;
+	top: 100px;
+	margin-left: -80px;
+	border: 0px solid black;
+}
+
 .banner h1 {
 	margin-bottom: 0;
 }
