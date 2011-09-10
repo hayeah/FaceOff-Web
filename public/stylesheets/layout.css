@@ -115,6 +115,11 @@
 	font-size: 17px;
 }
 
+#mark iframe {
+	background: white;
+	opacity: 0.8;
+}
+
 .hero-unit .credit {
 	position: absolute;
 	bottom: 0;
