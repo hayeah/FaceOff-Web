@@ -152,7 +152,12 @@
 	width: 200px;
 }
 
-
-
+#credit {
+	display: inline-block;
+	float: left;
+}
+footer .mixpanel {
+	float: right;
+}
 
 
