@@ -1,12 +1,59 @@
-/* @override http://localhost:4000/FaceOff/stylesheets/layout.css */
+/* @override 
+	http://localhost:4000/FaceOff/stylesheets/layout.css
+	http://localhost:9292/stylesheets/layout.css
+*/
+
+.clear {
+	clear:  both;
+}
+
+.banner {
+	color: #000;
+	font-family: 'Coda', sans-serif;
+	text-transform: uppercase;
+	font-size: 3.5em;
+	padding: 30px;
+	text-align: center;
+}
+
+.banner h1 {
+	margin-bottom: 0;
+}
+.banner h2 {
+	margin-top: -10px;
+}
 
 .hero-unit {
 	background: #004687;
 	color: #fff;
 	position: relative;
+	height: 503px;
+	padding: 0;
+	margin-top: 0px;
 }
 
-.hero-unit h1 {
+.hero-unit .pitch {
+	width: 499px;
+	padding: 3em 0 0 3em;
+	margin: 0em;
+}
+
+.hero-unit .pitch em {
+	font-weight: bold;
+	font-style: normal;	
+}
+
+.hero-unit .pitch hr {
+	margin-top: 2em ;
+	width: 32em;
+}
+
+.hero-unit .btn {
+	font-size: 1.2em;
+	margin: 0px auto;	
+}
+
+.hero-unit h1,h2 {
 	color: #fff;
 }
 
@@ -15,11 +62,12 @@
 }
 
 .hero-unit p {
-	width: 400px;
 	margin-top: 20px;
+	font-size: 16px;
 }
 
 .hero-unit #mark {
+	display: block;
 	background: url(../images/mark-back.png);
 	width: 399px;
 	height: 503px;
@@ -36,9 +84,6 @@
 }
 
 #primary {
-	margin-left: 20px;
-	margin-top: 40px;
-	margin-bottom: 50px;
 }
 
 #primary h2 {
@@ -48,6 +93,28 @@
 #primary li, #primary p {
 	color: #333;
 	font-size: 14px;
+}
+
+#primary p {
+	font-size: 1.4em;
+	line-height: 1.3em;
+	margin-bottom: 1em;
+}
+
+#primary .side {
+	margin-left: 40px;
+}
+#primary .side p {
+	font-size: 14px;
+	color: #808080;
+}
+
+#primary .side h2 {
+	color: #40405a;
+}
+
+#primary .side .btn {
+	font-size: 1.2em;
 }
 
 #secondary {
