@@ -1,0 +1,91 @@
+/* @override http://localhost:4000/FaceOff/stylesheets/layout.css */
+
+.hero-unit {
+	background: #004687;
+	color: #fff;
+	position: relative;
+}
+
+.hero-unit h1 {
+	color: #fff;
+}
+
+.hero-unit a {
+	color: #ccc;
+}
+
+.hero-unit p {
+	width: 400px;
+	margin-top: 20px;
+}
+
+.hero-unit #mark {
+	background: url(../images/mark-back.png);
+	width: 399px;
+	height: 503px;
+	top: 0px;
+	right: 40px;
+	position: absolute;
+}
+
+.hero-unit .credit {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	padding-right: 5px;
+}
+
+#primary {
+	margin-left: 20px;
+	margin-top: 40px;
+	margin-bottom: 50px;
+}
+
+#primary h2 {
+	margin-bottom: 10px;
+}
+
+#primary li, #primary p {
+	color: #333;
+	font-size: 14px;
+}
+
+#secondary {
+	margin-left: 0px;
+}
+
+.faceoff-button {
+	background: url(../images/faceoff-icon.png) no-repeat;
+	width: 51px;
+	height: 24px;
+	position: absolute;
+	top: 180px;
+	right:  160px;
+}
+
+.like-button {
+	background: url(../images/like.png) no-repeat;
+	width: 51px;
+	height: 24px;
+	position: absolute;
+	top: 180px;
+	right:  160px;
+	display: none;
+}
+
+.faceoff-button:hover {
+	background-position: 0 -24px;
+}
+
+.twipsy {
+	position: absolute;
+	top: 10px;
+	right: 80px;
+	font-size: 14px;
+	width: 200px;
+}
+
+
+
+
+
